@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voni Food</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <!-- cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+      <div>
+        <h3>Voni Food</h3>
+      </div>
+      <div>
+        <!-- botao toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- links de navegação -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cardapio.html">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./horarios.html">Horários</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Formulario utilizando grid -->
+  <div class="container mt-5">
+    <!-- Título -->
+    <h2>Deixe seu recado:</h2>
+    <!-- Formulário -->
+    <form class="">
+      <!-- Linha do formulário -->
+      <div class="form-row">
+        <!-- Coluna do formulário -->
+        <div class="col-7 ">
+          <label for="colFormLabel" class="col-sm-2 col-form-label">Nome</label>
+          <input type="text" class="form-control" placeholder="Nome">
+        </div>
+        <!-- Coluna do formulário -->
+        <div class="col">
+          <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <!-- Coluna do formulário -->
+        <div class="col">
+          <label for="colFormLabel" class="col-sm-2 col-form-label">Telefone</label>
+          <input type="text" class="form-control" placeholder="Telefone">
+        </div>
+      </div>
+      <!-- Linha do formulário -->
+      <div class="form-row justify-content-center m-3">
+        <!-- Coluna do formulário -->
+        <div class="col-12">
+          <label for="colFormLabel" class="col-sm-2 col-form-label">Mensagem</label>
+          <!-- Tag textbox utilizada para mensagem -->
+          <textarea name="mensagem" id="mensagem" class="form-control" cols="30" rows="8" placeholder="Escreva sua mensagem aqui"></textarea>
+        </div>
+      </div>
+      <div class="form-row justify-content-center">
+        <!-- Botão de envio do formulário -->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

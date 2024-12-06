@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbotron {
+  background-image: url("https://wallpapers.com/images/hd/vintage-venice-italy-saeamfzpayr3fpcl.webp");
+  background-size: cover;
+  background-position: center;
+}
