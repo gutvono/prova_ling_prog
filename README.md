@@ -8,4 +8,4 @@
 - Bootstrap
 
 ## Link do projeto
-- [Clique aqui]([https://github.com/ViniciusRossi02](https://gutvono.github.io/prova_ling_prog))
+- [Clique aqui](https://gutvono.github.io/prova_ling_prog)
